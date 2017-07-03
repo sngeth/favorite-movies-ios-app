@@ -12,6 +12,8 @@
 		962AD0FE1F0A82C400CEE4F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962AD0FC1F0A82C400CEE4F8 /* Main.storyboard */; };
 		962AD1001F0A82C400CEE4F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962AD0FF1F0A82C400CEE4F8 /* Assets.xcassets */; };
 		962AD1031F0A82C400CEE4F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962AD1011F0A82C400CEE4F8 /* LaunchScreen.storyboard */; };
+		962AD10D1F0A866600CEE4F8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962AD10C1F0A866600CEE4F8 /* CustomTableViewCell.swift */; };
+		962AD10F1F0A879C00CEE4F8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962AD10E1F0A879C00CEE4F8 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		962AD0FF1F0A82C400CEE4F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		962AD1021F0A82C400CEE4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		962AD1041F0A82C400CEE4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962AD10C1F0A866600CEE4F8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		962AD10E1F0A879C00CEE4F8 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				962AD0FF1F0A82C400CEE4F8 /* Assets.xcassets */,
 				962AD1011F0A82C400CEE4F8 /* LaunchScreen.storyboard */,
 				962AD1041F0A82C400CEE4F8 /* Info.plist */,
+				962AD10C1F0A866600CEE4F8 /* CustomTableViewCell.swift */,
+				962AD10E1F0A879C00CEE4F8 /* Movie.swift */,
 			);
 			path = "favorite-movies-app";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962AD10D1F0A866600CEE4F8 /* CustomTableViewCell.swift in Sources */,
 				962AD0FB1F0A82C400CEE4F8 /* ViewController.swift in Sources */,
+				962AD10F1F0A879C00CEE4F8 /* Movie.swift in Sources */,
 				962AD0F91F0A82C400CEE4F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
